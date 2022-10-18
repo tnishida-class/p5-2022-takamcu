@@ -14,7 +14,12 @@ function windowResized(){
 
 function draw(){
   background(160, 192, 255);
-  count = (count + 1) % cycle;
+  if(keyIsDown(" ".charCodeAt(0))){
+  count = (count + 2) % cycle;
+  }
+  else{
+  count = (count + 1) % cycle;  
+  }
   let size = count;
   if(count < 50){
     ellipse(width / 2, height / 2, 100 + size); 
