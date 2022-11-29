@@ -11,7 +11,7 @@ function setup(){
 
 function draw(){
   background(160, 192, 255);
-  for(let i = 0; i < balls.length; i++){
+    for(let i = 0; i < balls.length; i++){
     let b = balls[i];
     ellipse(b.x, b.y, b.size);
     b.x += b.vx;
@@ -23,7 +23,7 @@ function mouseDragged(){
   const dx = mouseX - pmouseX;
   const dy = mouseY - pmouseY;
   if(mag(dx, dy) > 5){
-    const b = { x: mouseX, y: mouseY, size: 20, vx: dx, vy: dy };
+    const b = { x: mouseX, y: mouseY, size: random(1,100), vx: dx, vy: dy };
     balls.push(b);
   }
 }
