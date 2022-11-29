@@ -62,7 +62,7 @@ function draw() {
       }
     }
     
-      if(c1[0] == 0 && c1[1] == 128 && c1[2] == 0 &&
+     if(c1[0] == 0 && c1[1] == 128 && c1[2] == 0 &&
          c2[0] == 255 && c2[1] == 255 && c2[2] == 255 &&
          c3[0] == 255 && c3[1] == 165 && c3[2] == 0){
       if(mouseIsPressed === true){
@@ -72,20 +72,20 @@ function draw() {
       }
     }
      
-      if(c1[0] == 255 && c1[1] == 165 && c1[2] == 0 &&
+     if(c1[0] == 255 && c1[1] == 165 && c1[2] == 0 &&
          c2[0] == 255 && c2[1] == 255 && c2[2] == 255 &&
          c3[0] == 0 && c3[1] == 128 && c3[2] == 0){
-         if(mouseIsPressed === true){
+      if(mouseIsPressed === true){
         fill(0);
         textSize(32);
         text("Cote d'lvoire", 50, 375);
       }
     }
       
-      if(c1[0] == 0 && c1[1] == 0 && c1[2] == 255 &&
+     if(c1[0] == 0 && c1[1] == 0 && c1[2] == 255 &&
          c2[0] == 255 && c2[1] == 255 && c2[2] == 0 &&
          c3[0] == 255 && c3[1] == 0 && c3[2] == 0){
-         if(mouseIsPressed === true){
+      if(mouseIsPressed === true){
         fill(0);
         textSize(32);
         text('Romania', 50, 375);
